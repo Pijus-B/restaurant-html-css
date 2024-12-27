@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="header-container">
+        <div class="header">
+                <a href="/index.html" class="font">HOME</a>
+                <a href="/about/about.html" class="font">ABOUT</a>
+                <a href="/menu/menu.html" class="font">MENU</a>
+                <a href="./contact.html" class="font">CONTACT</a>
+        </div>
+    </div>
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+        </div>
+    </div>
+    
+    <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text">Copyright &copy Pijus Bogušis 2024</div>
+    </div>
+    
+</body>
+</html>
